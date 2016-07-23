@@ -1,0 +1,10 @@
+<div>
+    Form Component Saying Hii
+</div>
+<div>
+    <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+        <label for="value1">Value 1</label><input type="text" name="value1" id="value1" ngModel>
+        <label for="value2">Value 2</label><input type="text" name="value2" id="value2" ngModel>
+        <button type="submit">Submit</button>
+    </form>
+</div>
